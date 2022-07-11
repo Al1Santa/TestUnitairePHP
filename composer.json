@@ -1,0 +1,16 @@
+{
+    "name": "moi/app",
+    "require": {
+        "php": ">=5.5.12",
+        "phpunit/phpunit": "^4.8"
+    },
+    "authors": [
+        {
+            "name": "alain",
+            "email": "alain.santamaria57@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {"App\\" : "App"}
+    }
+}
